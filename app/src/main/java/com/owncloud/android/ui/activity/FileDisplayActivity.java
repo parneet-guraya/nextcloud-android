@@ -1095,8 +1095,6 @@ public class FileDisplayActivity extends FileActivity
                 resetTitleBarAndScrolling();
                 setDrawerAllFiles();
             }
-        } else if (leftFragment instanceof PreviewTextStringFragment) {
-            createMinFragments(null);
         } else if (leftFragment instanceof PreviewPdfFragment) {
             super.onBackPressed();
         } else {
